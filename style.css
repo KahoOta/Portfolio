@@ -598,6 +598,7 @@ footer a:hover {
 
   .hero-text h1 {
     font-size: 48px;
+    font-family: 'Noto Serif JP', serif;
   }
 
   .hero-text p {
@@ -672,47 +673,53 @@ footer a:hover {
     font-size: 48px;
   }
 
-  .timeline {
-    margin-left: 0;
-    padding-left: 20px;
-  }
 
-  .timeline-item {
-    padding-left: 20px;
-    position: relative;
-  }
+.timeline {
+  position: relative;
+  margin-left: 30px;
+  padding-left: 20px;
+  border-left: 2px solid #c5bfb8;
+}
 
-  .timeline-dot {
-    left: -20px;
-  }
+.timeline-item {
+  position: relative;
+  margin-bottom: 60px;
+  padding-left: 20px;
+}
 
-  .timeline-year {
-    left: -50px;
-    font-size: 14px;
-  }
+.timeline-dot {
+  position: absolute;
+  top: 0;
+  left: -11px; /* timelineの左線に重なるように */
+  width: 16px;
+  height: 16px;
+  background-color: #c5bfb8;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px #c5bfb8;
+  z-index: 2;
+}
 
-  .timeline-item::after {
-    top: 10px;
-    left: -2px;
-    height: 100%; 
-    width: 2px;
-    background-color: #c5bfb8;
-    position: absolute;
-    content: "";
-    z-index: -1;
-  }
+.timeline-year {
+  position: absolute;
+  left: -55px;
+  top: 0;
+  font-size: 10px;
+  color: #444;
+  font-family: 'Noto Serif JP', serif;
+}
 
-  .timeline-item:last-child::after {
-    display: none;
-  }
+timeline-content h3{
+    font-size: 13px;
+}
 
-  .timeline-content h3 {
-    font-size: 16px;
-  }
+.timeline-content p {
+  font-size: 10px;
+}
 
-  .timeline-content p {
-    font-size: 14px;
-  }
+.timeline-item::after {
+  display: none;
+}
 
     .skills h2 {
         font-size: 48px;
