@@ -8,7 +8,6 @@ body {
   margin: 0;
   color: #333;
   font-family: 'DreamAvenue', sans-serif;
-  position: relative;
 }
 
 .left-deco {
@@ -29,7 +28,7 @@ body {
 .hero {
   display: flex;
   align-items: center;
-  padding-left: 250px; 
+  padding-left: 280px; 
 }
 
 .hero-text {
@@ -65,17 +64,6 @@ body {
   margin-left: 30px;
 }
 
-.fade-in {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.8s ease;
-}
-
-.fade-in.active {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 .contents-section {
     padding: 100px 0;
     background-color: #fdfdfd;
@@ -85,15 +73,20 @@ body {
     font-size: 80px;
     font-weight: 100;
     letter-spacing: 2px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     text-align: center;
+    
 }
 
 .contents{
     display: flex;
     justify-content: center;
     gap: 150px;
+    max-width: 1000px;  
+    padding: 0 20px;    
+    margin: 0 auto;
 }
+
 
 .contents-left ul,
 .contents-right ul {
@@ -721,7 +714,8 @@ timeline-content h3{
   display: none;
 }
 
-    .skills h2 {
+
+.skills h2 {
         font-size: 48px;
     }
 
