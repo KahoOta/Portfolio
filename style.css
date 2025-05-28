@@ -549,14 +549,19 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  /* ヘッダー対応 */
+  /* 全体のフォント調整 */
+  body {
+    font-size: 14px;
+  }
+
+  /* ヘッダー */
   header {
     flex-direction: column;
     height: auto;
     padding: 10px;
   }
 
-  header .header-nav ul {
+  .header-nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -567,7 +572,7 @@ footer a:hover {
   header li {
     float: none;
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   header li a {
@@ -582,15 +587,21 @@ footer a:hover {
   }
 
   .hero-text h1 {
-    font-size: 60px;
+    font-size: 48px;
   }
 
   .hero-text p {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .hero-image {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero-image img {
     width: 90%;
+    display: block;
     margin: 0 auto;
   }
 
@@ -598,20 +609,80 @@ footer a:hover {
   .contents {
     flex-direction: column;
     gap: 40px;
-  }
-
-  .contents-left ul,
-  .contents-right ul {
-    align-items: center;
+    padding: 0 20px;
   }
 
   .contents-left li a,
   .contents-right li a {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-align: center;
   }
 
-  /* Works セクション */
+  /* Profile */
+  .profile h2 {
+    font-size: 60px;
+  }
+
+  .profile h3 {
+    font-size: 24px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .profile h4 {
+    text-align: center;
+  }
+
+  .profile p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  .name {
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .profile-image {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Timeline */
+  .timeline {
+    margin-left: 0;
+    padding-left: 20px;
+  }
+
+  .timeline-content h3 {
+    font-size: 16px;
+  }
+
+  .timeline-content p {
+    font-size: 14px;
+  }
+
+  /* Skills */
+  .skill-name {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  .skill-bar {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .skill-percentage {
+    font-size: 12px;
+    top: -20px;
+  }
+
+  /* Works */
   .works-content {
     flex-direction: column;
     align-items: center;
@@ -622,29 +693,42 @@ footer a:hover {
     margin: 20px 0;
   }
 
-  /* Profile セクション */
-  .profile p {
+  .work-item h3 {
+    font-size: 20px;
+  }
+
+  .work-item p {
+    font-size: 14px;
+  }
+
+  /* Vision */
+  .vision h2 {
+    font-size: 48px;
+  }
+
+  .vision p {
+    padding: 0 16px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .vision-image img {
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: 20px auto;
   }
 
-  .profile h3 {
-    margin-left: 20px;
+  /* Contact */
+  .contact h2 {
+    font-size: 48px;
   }
 
-  .name {
-    flex-direction: column;
-    gap: 4px;
+  .contact form {
+    width: 90%;
+    padding: 20px;
   }
 
-  /* Timeline 調整 */
-  .timeline {
-    margin-left: 20px;
-    padding-left: 20px;
-  }
-
-  /* 飾り非表示 */
+  /* 飾りなど */
   .left-deco {
     display: none;
   }
