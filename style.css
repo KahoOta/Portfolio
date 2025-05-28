@@ -547,3 +547,25 @@ footer a:hover {
 .work-item a:hover {
     background-color: #9fb3aa;
 }
+
+/* レスポンシブ対応: 768px以下の画面幅 */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .hero-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .hero-text h1 {
+    font-size: 60px;
+  }
+
+  .hero-text p {
+    font-size: 24px;
+  }
+}
