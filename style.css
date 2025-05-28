@@ -548,17 +548,37 @@ footer a:hover {
     background-color: #9fb3aa;
 }
 
-/* レスポンシブ対応: 768px以下の画面幅 */
 @media (max-width: 768px) {
-  .hero {
+  /* ヘッダー対応 */
+  header {
     flex-direction: column;
-    padding-left: 0;
-    text-align: center;
+    height: auto;
+    padding: 10px;
   }
 
-  .hero-image {
-    width: 80%;
-    margin: 0 auto;
+  header .header-nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+  }
+
+  header li {
+    float: none;
+    margin: 0;
+    font-size: 20px;
+  }
+
+  header li a {
+    margin-left: 0;
+  }
+
+  /* ヒーローセクション */
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
   }
 
   .hero-text h1 {
@@ -567,5 +587,65 @@ footer a:hover {
 
   .hero-text p {
     font-size: 24px;
+  }
+
+  .hero-image {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* コンテンツセクション */
+  .contents {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .contents-left ul,
+  .contents-right ul {
+    align-items: center;
+  }
+
+  .contents-left li a,
+  .contents-right li a {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /* Works セクション */
+  .works-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-item {
+    width: 90%;
+    margin: 20px 0;
+  }
+
+  /* Profile セクション */
+  .profile p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profile h3 {
+    margin-left: 20px;
+  }
+
+  .name {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  /* Timeline 調整 */
+  .timeline {
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+
+  /* 飾り非表示 */
+  .left-deco {
+    display: none;
   }
 }
