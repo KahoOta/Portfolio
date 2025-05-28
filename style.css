@@ -579,6 +579,37 @@ footer a:hover {
     margin-left: 0;
   }
 
+  @media (max-width: 768px) {
+  /* 全体のフォント調整 */
+  body {
+    font-size: 14px;
+  }
+
+  /* ヘッダー */
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .header-nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+  }
+
+  header li {
+    float: none;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  header li a {
+    margin-left: 0;
+  }
+
   /* ヒーローセクション */
   .hero {
     flex-direction: column;
