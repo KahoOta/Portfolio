@@ -7,7 +7,7 @@ body {
   background-color: #fdfdfd;
   margin: 0;
   color: #333;
-  font-family: dreamAvenue, sans-serif;
+  font-family: 'DreamAvenue', sans-serif;
   position: relative;
 }
 
@@ -45,7 +45,7 @@ body {
   margin-bottom: 20px;
   margin-top:50px;
   font-weight: 100;
-  font-family: dreamAvenue, sans-serif;
+  font-family: 'DreamAvenue', sans-serif;
 }
 
 .hero-text p {
@@ -137,6 +137,10 @@ header{
     justify-content: space-between;
     padding: 0 50px;
     opacity:0.8;
+}
+
+.header-title{
+    display:none;
 }
 
 header li{
@@ -580,12 +584,10 @@ footer a:hover {
   }
 
   @media (max-width: 768px) {
-  /* 全体のフォント調整 */
   body {
     font-size: 14px;
   }
 
-  /* ヘッダー */
   header {
     flex-direction: column;
     height: auto;
@@ -593,11 +595,7 @@ footer a:hover {
   }
 
   .header-nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    padding: 0;
+    display: none;
   }
 
   header li {
@@ -610,11 +608,14 @@ footer a:hover {
     margin-left: 0;
   }
 
-  /* ヒーローセクション */
   .hero {
     flex-direction: column;
     padding: 20px;
     text-align: center;
+  }
+
+  .hero-image{
+    display: none;
   }
 
   .hero-text h1 {
@@ -636,7 +637,6 @@ footer a:hover {
     margin: 0 auto;
   }
 
-  /* コンテンツセクション */
   .contents {
     flex-direction: column;
     gap: 40px;
@@ -650,7 +650,6 @@ footer a:hover {
     text-align: center;
   }
 
-  /* Profile */
   .profile h2 {
     font-size: 60px;
   }
@@ -683,7 +682,6 @@ footer a:hover {
     margin: 0 auto;
   }
 
-  /* Timeline */
   .timeline {
     margin-left: 0;
     padding-left: 20px;
@@ -697,7 +695,6 @@ footer a:hover {
     font-size: 14px;
   }
 
-  /* Skills */
   .skill-name {
     margin-left: 20px;
     font-size: 18px;
@@ -713,7 +710,6 @@ footer a:hover {
     top: -20px;
   }
 
-  /* Works */
   .works-content {
     flex-direction: column;
     align-items: center;
@@ -732,7 +728,6 @@ footer a:hover {
     font-size: 14px;
   }
 
-  /* Vision */
   .vision h2 {
     font-size: 48px;
   }
@@ -749,7 +744,6 @@ footer a:hover {
     margin: 20px auto;
   }
 
-  /* Contact */
   .contact h2 {
     font-size: 48px;
   }
@@ -759,7 +753,6 @@ footer a:hover {
     padding: 20px;
   }
 
-  /* 飾りなど */
   .left-deco {
     display: none;
   }
