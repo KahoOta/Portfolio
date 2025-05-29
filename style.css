@@ -733,11 +733,11 @@ footer a:hover {
 
   .skill-name {
     margin-left: 20px;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .skill-bar {
-    width: 60%;
+    width: 70%;
     margin-left: 20px;
   }
 
@@ -761,12 +761,23 @@ footer a:hover {
   }
 
   .work-item h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .work-item p {
-    font-size: 14px;
+    font-size: 10px;
     margin-bottom: 0;
+  }
+
+  .work-item a{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+
+  .work-item img {
+    height: 150px;
+    margin-bottom: 10px;
   }
 
   .vision h2 {
