@@ -756,6 +756,7 @@ footer a:hover {
 
   .work-item p {
     font-size: 14px;
+    margin-bottom: 0;
   }
 
   .vision h2 {
