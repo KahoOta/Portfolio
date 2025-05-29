@@ -677,8 +677,8 @@ footer a:hover {
   .timeline-item::after {
    content: "";
    position: absolute;
-   left: 10px; 
-   top: 2px;   
+   left: 18px; 
+   top: 10px;   
    width: 2px;
    height: calc(150%); 
    background-color: #c5bfb8;
