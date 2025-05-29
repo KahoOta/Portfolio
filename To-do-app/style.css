@@ -1,0 +1,54 @@
+
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+  padding: 40px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+
+h1{
+    font-weight: 100;
+    font-size: 70px;
+    font-family: dreamAvenue, sans-serif;
+}
+
+
+
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#todo-input {
+  width: 70%;
+  padding: 8px;
+  font-size: 16px;
+  font-family: 'Noto Serif JP', serif;
+}
+
+#add-button {
+  padding: 8px 16px;
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+  padding: 8px;
+  background: white;
+  border: 1px solid #ddd;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Noto Serif JP', serif;
+}
+
+li button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}

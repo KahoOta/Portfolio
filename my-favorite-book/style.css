@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'DreamAvenue';
+  src: url('./fonts/DreamAvenue.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Noto SerifJP', serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  font-family: 'DreamAvenue', sans-serif;
+  font-weight: 100;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e5d9ce;
+}
+
+.book-list {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 300px;
+  text-align: center;
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
