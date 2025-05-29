@@ -670,7 +670,7 @@ footer a:hover {
 
   .timeline {
     position: relative;
-    padding-left: 25px;
+    padding-left: 30px;
     margin-left: 0;
   }
 
@@ -695,7 +695,7 @@ footer a:hover {
   .timeline-year {
     left: -20px;
     top: 0;
-    font-size: 10px;
+    font-size: 8px;
     white-space: nowrap;
   }
 
