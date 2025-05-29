@@ -675,9 +675,9 @@ footer a:hover {
   }
 
   .timeline::before {
-    left: 15px;
+    left: 30px;
     top: 0;
-    height: 110%;
+    height: 120%;
   }
 
   .timeline-item {
@@ -693,7 +693,7 @@ footer a:hover {
   }
 
   .timeline-year {
-    left: -35px;
+    left: -20px;
     top: 0;
     font-size: 10px;
     white-space: nowrap;
