@@ -545,6 +545,7 @@ footer a:hover {
     background-color: #9fb3aa;
 }
 
+
   @media (max-width: 768px) {
   body {
     font-size: 14px;
@@ -672,21 +673,9 @@ footer a:hover {
   padding-left: 20px; 
 }
 
-.timeline::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 8px; 
-  width: 2px;
-  height: 100%;
-  background-color: #c5bfb8;
-  z-index: 0;
-}
-
 .timeline-item {
   position: relative;
   margin-bottom: 40px;
-  padding-left: 24px; 
 }
 
 .timeline-dot {
@@ -713,8 +702,8 @@ footer a:hover {
 }
 
 .timeline-content {
-  padding-left: 10px; /* テキスト寄せる */
-  max-width: 90%; /* はみ出し防止 */
+  position: absolute;
+  max-width: 90%; 
   word-wrap: break-word;
 }
 
