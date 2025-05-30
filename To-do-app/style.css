@@ -61,7 +61,8 @@ li button {
 
   h1 {
     font-size: 50px;
-  }
+    font-family: 'Noto Serif JP', serif;
+    }
 
   #todo-input {
     width: 60%;
