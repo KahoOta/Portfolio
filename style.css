@@ -695,29 +695,29 @@ footer a:hover {
     margin: 0 auto;
   }
 
-    .profile h2 {
-        font-size: 40px;
-        margin-bottom: 20px;
-    }
+.profile h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
 
   .profile h3,
   .profile h4 {
     margin-left: 0;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .profile p {
     width: 100%;
     margin: 20px auto;
-    float: none; /* ←重なりの原因を防ぐ！ */
+    float: none; 
     text-align: left;
     font-size: 14px;
   }
 
   .profile-image {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .profile-image img {
