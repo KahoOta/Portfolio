@@ -698,17 +698,22 @@ footer a:hover {
     margin: 0 auto;
   }
 
-.profile h2 {
+ .profile h2 {
     font-size: 40px;
     margin-bottom: 20px;
 }
 
-  .profile h3,
-  .profile h4 {
+  .profile h3{
     margin-left: 0;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
   }
+
+  .profile h4 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+ }
 
   .profile p {
     width: 100%;
@@ -716,15 +721,16 @@ footer a:hover {
     float: none; 
     text-align: left;
     font-size: 10px;
-  }
+  } 
     .profile p span {
         font-size: 13px;
     }
 
-  .profile-image {
-    margin-top: 30px;
+ .profile-image {
+    margin-top: 20px;
     margin-bottom: 10px;
-    text-align: center;
+    justify-content: center;
+    display: flex;
   }
 
   .profile-image img {
@@ -732,6 +738,15 @@ footer a:hover {
     height: auto;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0 auto;
+  }
+
+  .name{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 4px;
   }
 
   .experience h2 {
