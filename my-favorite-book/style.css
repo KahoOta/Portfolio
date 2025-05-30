@@ -55,11 +55,15 @@ header, footer {
   .book-list {
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .book-card {
     width: 90%;
+    margin: 20px auto;
   }
+
 .book-card h2 {
   font-size: 24px;
   margin: 10px 0;
