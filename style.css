@@ -613,7 +613,6 @@ footer a:hover {
   }
 
   .contents {
-    flex-direction: column;
     align-items: center;
     gap: 20px;
     padding: 0 20px;
@@ -632,7 +631,7 @@ footer a:hover {
 
   .contents-left li a,
   .contents-right li a {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 12px;
     text-align: center;
   }
@@ -650,6 +649,7 @@ footer a:hover {
   .profile h4 {
     font-size: 14px;
     text-align: center;
+    margin-top: 4px;
   }
 
   .profile p {
