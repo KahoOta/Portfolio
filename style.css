@@ -718,6 +718,7 @@ footer a:hover {
   .profile-image {
     margin-top: 30px;
     margin-bottom: 10px;
+    text-align: center;
   }
 
   .profile-image img {
