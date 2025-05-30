@@ -52,3 +52,27 @@ li button {
   padding: 4px 8px;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+    font-family: 'Noto Serif JP', serif;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  #todo-input {
+    width: 60%;
+  }
+
+  #add-button {
+    width: 30%;
+  }
+
+  li {
+    font-size: 14px;
+    padding: 6px;
+  }
+}

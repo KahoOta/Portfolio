@@ -14,7 +14,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 600vh; 
+  height: 650vh; 
   width: 200px;
   z-index: 0;
   pointer-events: none; 
@@ -682,46 +682,43 @@ footer a:hover {
     text-align: center;
   }
 
+  
   .profile-content {
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-
-  .profile h2 {
-    font-size: 30px;
+  .profile-text {
+    width: 90%;
+    margin: 0 auto;
   }
 
-  .profile h3 {
-    font-size: 20px;
+  .profile h3,
+  .profile h4 {
     margin-left: 0;
     text-align: center;
   }
 
-  .profile h4 {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 4px;
-  }
-
   .profile p {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 10px;
+    width: 100%;
+    margin: 20px auto;
+    float: none; /* ←重なりの原因を防ぐ！ */
+    text-align: left;
   }
 
-  .profile p span {
-    font-size: 13px;
+  .profile-image {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
-    .profile-image {
-        width: 200px;
-        height: 200px;
-        margin: 20px auto;
-        border-radius: 50%;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-    }
+  .profile-image img {
+    width: 240px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
 
   .experience h2 {
     font-size: 30px;
@@ -853,9 +850,7 @@ footer a:hover {
   }
 
   .vision-image img {
-    width: 240px;
-    height: auto;
-    margin-bottom: 30px;
+    display: none;
   }
 
   .contact h2 {
