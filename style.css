@@ -599,7 +599,7 @@ footer a:hover {
   }
 
  header {
-    padding: 0 20px;
+    padding: 0 2 0px;
     height: 60px;
     justify-content: center;
  }
@@ -736,7 +736,7 @@ footer a:hover {
    height: calc(150%); 
    background-color: #c5bfb8;
    z-index: -1;
-}
+ }
 
   .timeline-item {
     margin-bottom: 40px;
@@ -774,7 +774,7 @@ footer a:hover {
     margin-bottom: 50px;
   }
 
-.skills h2 {
+  .skills h2 {
     font-size: 30px;
     }
 
@@ -858,7 +858,7 @@ footer a:hover {
   }
 
   .contact{
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   .contact h2 {
@@ -869,6 +869,31 @@ footer a:hover {
     width: 80%;
     padding: 20px;
   }
+
+  .contact label {
+    font-size: 12px;
+  }
+
+  .contact input,
+  .contact textarea {
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 16px;
+  }
+
+  .contact button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 20px;
+    }
+
+  footer a {  
+    font-size: 12px;
+ }
 
   .left-deco {
     display: none;
