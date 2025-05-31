@@ -599,37 +599,19 @@ footer a:hover {
   }
 
  header {
-  display: block;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-  padding: 16px; 
-  position: relative; 
-}
-
-
-.header-title {
-  font-size: 12px;
-  font-weight: bold;
-  color: #333;
-  text-align: center;
-  margin: 0 auto;
-  width: 100%;
-}
-
-
+    padding: 0 20px;
+    height: 60px;
+    justify-content: center;
+ }
+ .header-title {
+    display: block;
+    font-size: 24px;
+    font-weight: 100;
+    color: black;
+ }
+ 
   .header-nav ul {
     display: none;
-  }
-
-  header li {
-    float: none;
-    margin: 0;
-    font-size: 18px;
-  }
-
-  header li a {
-    margin-left: 0;
   }
 
   .hero {
@@ -677,8 +659,8 @@ footer a:hover {
   }
 
   .profile-text {
-    width: 90%;
     margin: 0 auto;
+    max-width: 600px;
   }
 
   .profile h2 {
