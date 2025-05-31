@@ -1,5 +1,4 @@
 <?php
-// 入力値を受け取り（XSS対策込み）
 $name = htmlspecialchars($_POST['name'], ENT_QUOTES, 'UTF-8');
 $email = htmlspecialchars($_POST['email'], ENT_QUOTES, 'UTF-8');
 $message = htmlspecialchars($_POST['message'], ENT_QUOTES, 'UTF-8');
