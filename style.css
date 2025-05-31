@@ -603,10 +603,10 @@ footer a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center; 
-  height: 40px; 
-  padding: 0 16px; 
+  padding: 16px; 
   position: relative; 
 }
+
 
 .header-title {
   font-size: 12px;
@@ -808,7 +808,7 @@ footer a:hover {
   }
 
   .works{
-    margin-bottom: 20px;
+    margin-top: 50px;
   }
 
   .works h2 {
@@ -842,11 +842,10 @@ footer a:hover {
 
   .work-item img {
     height: 150px;
-    margin-bottom: 10px;
   }
 
   .vision{
-    margin-bottom: 20px;
+    margin-top: 50px;
   }
 
   .vision-inner{
